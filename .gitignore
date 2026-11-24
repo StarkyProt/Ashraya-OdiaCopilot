@@ -1,0 +1,54 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+credentials.json
+*.pem
+*.key
+
+# Local databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# AI models
+models/
+*.pt
+*.pth
+*.gguf
+*.safetensors
+
+# Large datasets
+data/raw/
+uploads/
+outputs/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
